@@ -4,7 +4,9 @@ using System.Text;
 
 namespace ACME.BL
 {
-    class Customer
+    public class Customer
     {
+        private string _lastName;
+
     }
 }
