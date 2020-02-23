@@ -27,33 +27,6 @@ namespace ACME.BL
         // Methods for class
 
         /// <summary>
-        /// Saves product
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            return true;
-        }
-
-        /// <summary>
-        /// Retrieve all products
-        /// </summary>
-        /// <returns></returns>
-        public List<Product> Retrieve()
-        {
-            return new List<Product>();
-        }
-
-        /// <summary>
-        /// Retrieve product by id
-        /// </summary>
-        /// <returns></returns>
-        public Product Retrieve(int productId)
-        {
-            return new Product();
-        }
-
-        /// <summary>
         /// Validates data
         /// </summary>
         /// <returns></returns>

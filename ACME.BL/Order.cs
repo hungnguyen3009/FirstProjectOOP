@@ -28,24 +28,6 @@ namespace ACME.BL
         public int Id { get; private set; }
 
         // Methods for class
-        /// <summary>
-        /// Retrieve one order
-        /// </summary>
-        /// <param name="orderId"></param>
-        /// <returns></returns>
-        public Order Retrieve(int orderId)
-        {
-            return new Order();
-        }
-
-        /// <summary>
-        /// Saves data
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            return true;
-        }
 
         /// <summary>
         /// Validates data

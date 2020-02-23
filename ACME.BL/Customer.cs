@@ -54,35 +54,6 @@ namespace ACME.BL
 
         // Methods for this class
         /// <summary>
-        /// Saves the current customer
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            return true;
-        }
-
-        /// <summary>
-        /// Retrieves all customers
-        /// </summary>
-        /// <returns></returns>
-        public List<Customer> Retrieve()
-        {
-            return new List<Customer>();
-        }
-
-        /// <summary>
-        /// Retrieves customer by id
-        /// </summary>
-        /// <param name="customerId"></param>
-        /// <returns></returns>
-        public Customer Retrieve(int customerId)
-        {
-            return new Customer();
-        }
-
-
-        /// <summary>
         /// Validates the customer data
         /// </summary>
         /// <returns></returns>
